@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Fancy Weather App" />
+    <meta name="author" lang="en" content="Julia Shchuklina" />
+    <title>Fancy Weather</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+<link href="style.css" rel="stylesheet"></head>
+
+<body>
+    <div class="overlay"></div>
+    <header class="header">
+        <div class="toogle-buttons">
+            <div class="button-background"><i class="fas fa-sync-alt"></i></div>
+            <select name="languages" id="languages" class="button-language">
+                <option value="en">en</option>
+                <option value="ru">ru</option>
+                <option value="be">be</option>
+            </select>
+            <div class="button" id="button-toggle">
+                <input type="checkbox" class="checkbox">
+                <div class="knobs">
+                  <span></span>
+                </div>
+                <div class="layer"></div>
+              </div>
+        </div>
+        <form class="search-container">
+            <input type="text" name="search-input" class="search-input" placeholder="Search city" autocomplete="off">
+            <button type="submit" class="search-button"><span data-i18n="Search">Search</span></button>
+        </form>
+    </header>
+        <main>
+            <div class="container">
+             </div>
+        </main>
+<script type="text/javascript" src="index.js"></script></body>
+
+</html>
