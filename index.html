@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
@@ -35,7 +37,17 @@
               </div>
         </div>
         <form class="search-container">
-            <input type="text" name="search-input" class="search-input" placeholder="Search city" autocomplete="off">
+            <div class="search-field">
+                <i class="fas fa-search  search-icon"></i>
+                <input type="text" name="search-input" class="search-input" placeholder="Search city" autocomplete="off">
+                <i class="far fa-times-circle clear-btn"></i>
+                <div class="microphone-btn">
+                     <i class="fas fa-microphone-alt-slash"></i>
+                    </div>
+               
+                <!-- <i class="fas fa-microphone-alt"></i> -->
+            </div>
+           
             <button type="submit" class="search-button"><span data-i18n="Search">Search</span></button>
         </form>
       </header>
