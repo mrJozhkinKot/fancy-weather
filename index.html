@@ -11,8 +11,9 @@
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Tenali+Ramakrishna&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
@@ -31,31 +32,37 @@
             <div class="button" id="button-toggle">
                 <input type="checkbox" class="checkbox">
                 <div class="knobs">
-                  <span></span>
+                    <span></span>
                 </div>
                 <div class="layer"></div>
-              </div>
-        </div>
+            </div>
+
+            </div>
+         
         <form class="search-container">
+            <div class="sound-container">
+                <div class="play"><i class="far fa-play-circle"></i></div>
+                <div class="stop"><i class="far fa-stop-circle"></i></div>
+            </div>
             <div class="search-field">
                 <i class="fas fa-search  search-icon"></i>
-                <input type="text" name="search-input" class="search-input" placeholder="Search city" autocomplete="off">
+                <input type="text" name="search-input" class="search-input" placeholder="Search city"
+                    autocomplete="off">
                 <i class="far fa-times-circle clear-btn"></i>
                 <div class="microphone-btn">
-                     <i class="fas fa-microphone-alt-slash"></i>
-                    </div>
-               
-                <!-- <i class="fas fa-microphone-alt"></i> -->
+                    <i class="fas fa-microphone-alt-slash"></i>
+                </div>
             </div>
-           
+
             <button type="submit" class="search-button"><span data-i18n="Search">Search</span></button>
         </form>
-      </header>
-        <main>
-            <div class="message"></div>
-            <div class="container">
-             </div>
-        </main>
+       
+    </header>
+    <main>
+        <div class="message"></div>
+        <div class="container">
+        </div>
+    </main>
 <script type="text/javascript" src="index.js"></script></body>
 
 </html>
